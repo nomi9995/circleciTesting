@@ -22,7 +22,7 @@ class circleciTestingTests: XCTestCase {
     func testExample() {
         let name="numan"
         print("sss")
-        XCTAssert(true, "success")
+        XCTAssert(name=="numan", "success")
     }
 
     func testPerformanceExample() {
